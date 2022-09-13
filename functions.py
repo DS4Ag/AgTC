@@ -179,3 +179,5 @@ def create_new_template(config_file_name, item_TEMPLATE_INPUT, item_COLUMNS_TEMP
             raise
 
     base_template_subset_rep.to_csv(final_output_file_name, index=False)
+
+    return print('File ' + final_output_file_name + ' created successfully!')

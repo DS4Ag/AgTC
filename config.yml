@@ -1,6 +1,6 @@
 TEMPLATE_INPUT: 
   Folder : ./input/
-  Input_template_file_name : trialInformation_PPAC_soybean_M2_y22.csv
+  Input_template_file_name : base_template_example.csv
 
 COLUMNS_TEMPLATE:
   - Plot
