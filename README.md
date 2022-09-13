@@ -1,4 +1,4 @@
-![Wang lab logo](https://static.wixstatic.com/media/c544bf_0e3064b159ae42238c83dca23bc352e8~mv2.png/v1/crop/x_0,y_0,w_1918,h_2080/fill/w_91,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/lab_icon_3.png)
+[![Wang lab logo](https://static.wixstatic.com/media/c544bf_0e3064b159ae42238c83dca23bc352e8~mv2.png/v1/crop/x_0,y_0,w_1918,h_2080/fill/w_91,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/lab_icon_3.png)](https://github.com/Purdue-LuisVargas/agrXdatec)
 
 
 
@@ -39,7 +39,7 @@ You should make a simple **[installation](https://jupyter.org/install "jupyter.o
     
     ```    
 
-2. Clone the repository 
+2. Clone the repository [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec)
 
     ```sh
         git clone https://github.com/Purdue-LuisVargas/agrXdatec.git
@@ -294,3 +294,5 @@ Open the **main.ipynb** file in **Jupyter**, execute the two block of instructio
 Luis Vargas Rojas - [lvargasr@purdue.edu](lvargasr@purdue.edu)
 
 Purdue University, Wang Lab [dianewanglab.com](https://www.dianewanglab.com/)
+
+Project Link: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec)
