@@ -1,0 +1,41 @@
+TEMPLATE_INPUT: 
+  Folder : ./input/
+  Input_template_file_name : trialInformation_PPAC_soybean_M2_y22.csv
+
+COLUMNS_TEMPLATE:
+  - Plot
+  - Repetition
+  - Genotype
+
+NEW_COLUMNS: 
+  Experiment : ACRE-Biomass
+  Season : y22
+  Treatment_1 : Early planting date
+  Measurment : Plant height
+  Sampling_identifier : Sampling-2
+
+SAMPLES_PER_PLOT:
+  Sample_name: 
+    - A
+    - B
+    - C
+    - D
+
+SAMPLE_IDENTIFIER :
+  id_sample:
+    - Plot
+    - Sample_name
+    - Experiment
+    - Treatment_1
+    - Season
+    - Measurment
+    - Sampling_identifier
+
+TEMPLATE_OUTPUT: 
+  - Measurment
+  - Sampling_identifier
+  - Experiment
+  - Treatment_1
+  - Season
+
+  
