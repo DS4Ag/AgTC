@@ -14,6 +14,13 @@
 
 ## Prerequisites 
 
+- Option 1
+
+You can run the AGRonomic EXperiments DAta TEmplate Creator functions using the Jupyter Hub Purdue University server if you have an official Purdue account. Go to [https://notebook.scholar.rcac.purdue.edu/](https://notebook.scholar.rcac.purdue.edu/). JupyterHub login requires the use of BoilerKey Two-Factor Authentication. 
+
+
+- Option 2
+
 You should make a simple **[installation](https://jupyter.org/install "jupyter.org")** of either **JupyterLab** or **Jupyter Notebook**, or you also can install an environment management such as [conda](https://docs.conda.io/en/latest/), [mamba](https://mamba.readthedocs.io/), or [pipenv](https://pipenv.pypa.io/).
 
 
