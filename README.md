@@ -7,6 +7,8 @@
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 [![YAML 1.2](https://img.shields.io/badge/YAML-1.2-success)](https://yaml.org/)
 
+Lee la versión en [español](Readme.es.md)
+
 ### What is agrXdatec?
 
 **AGR**onomic E**X**periments **DA**ta **TE**mplate **C**reator is a set of functions written in python that allow you to create custom templates to collect data for most of the typical agronomic experiments. It also can be used as template to load a "field" in the [Field Book app](https://www.phenoapps.org/apps/). 
@@ -15,9 +17,8 @@
 ## Prerequisites 
 
 - Option 1
-  - Using a [Jupyter Hub](https://jupyter.org/try) enviroment. 
-      - **Purdue University members**: You can run the AGRonomic EXperiments DAta TEmplate Creator functions using the Jupyter Hub Purdue University server if you have an official Purdue account. Go to [https://notebook.scholar.rcac.purdue.edu/](https://notebook.scholar.rcac.purdue.edu/). JupyterHub login requires the use of BoilerKey Two-Factor Authentication. 
-
+  - Using a [Jupyter Hub](https://jupyter.org/try) enviroment.
+  - **For Purdue University members only** Jupyter Hub is available at https://notebook.scholar.rcac.purdue.edu/. It requires the use of BoilerKey Two-Factor Authentication.
 
 - Option 2
 
@@ -39,7 +40,7 @@ You should make a simple **[installation](https://jupyter.org/install "jupyter.o
     
     ```    
 
-2. [Clone or download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec)
+2. [Clone or download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **agrXdatec** from the **Github** repository: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec).
 
     ```sh
         git clone https://github.com/Purdue-LuisVargas/agrXdatec.git
@@ -47,7 +48,7 @@ You should make a simple **[installation](https://jupyter.org/install "jupyter.o
     ```
 ## Running the Jupyter Notebook
 
-1. [Launching Jupyter Notebook App](Launch the Jupyter Notebook App)
+1. [Launch Jupyter Notebook App](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html)
 2. Copy (if running locally ) or upload the downloaded files (if using the hub environment)  in your notebook folder. 
 3. Create the following folder ./output.
     
