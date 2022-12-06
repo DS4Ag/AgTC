@@ -15,8 +15,8 @@
 ## Prerequisites 
 
 - Option 1
-
-You can run the AGRonomic EXperiments DAta TEmplate Creator functions using the Jupyter Hub Purdue University server if you have an official Purdue account. Go to [https://notebook.scholar.rcac.purdue.edu/](https://notebook.scholar.rcac.purdue.edu/). JupyterHub login requires the use of BoilerKey Two-Factor Authentication. 
+  - Using a [Jupyter Hub](https://jupyter.org/try) enviroment. 
+      - **Purdue University members**: You can run the AGRonomic EXperiments DAta TEmplate Creator functions using the Jupyter Hub Purdue University server if you have an official Purdue account. Go to [https://notebook.scholar.rcac.purdue.edu/](https://notebook.scholar.rcac.purdue.edu/). JupyterHub login requires the use of BoilerKey Two-Factor Authentication. 
 
 
 - Option 2
@@ -24,7 +24,7 @@ You can run the AGRonomic EXperiments DAta TEmplate Creator functions using the 
 You should make a simple **[installation](https://jupyter.org/install "jupyter.org")** of either **JupyterLab** or **Jupyter Notebook**, or you also can install an environment management such as [conda](https://docs.conda.io/en/latest/), [mamba](https://mamba.readthedocs.io/), or [pipenv](https://pipenv.pypa.io/).
 
 
-## Installation
+## Installing Packages
 
 1. Install the requiered libraries using the [pip package installer](https://pypi.org/project/pip/) for Python.
 
@@ -39,12 +39,17 @@ You should make a simple **[installation](https://jupyter.org/install "jupyter.o
     
     ```    
 
-2. Clone the repository [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec)
+2. [Clone or download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec)
 
     ```sh
         git clone https://github.com/Purdue-LuisVargas/agrXdatec.git
     
     ```
+## Running the Jupyter Notebook
+
+1. [Launching Jupyter Notebook App](Launch the Jupyter Notebook App)
+2. Copy (if running locally ) or upload the downloaded files (if using the hub environment)  in your notebook folder. 
+3. Create the following folder ./output.
     
 ## Upload your base template file
 
@@ -56,7 +61,6 @@ Upload your base template file to the _./output_ folder. It should be a CSV form
       <th>plot</th>
       <th>genotype</th>
       <th>repetition</th>
-      <th>treatment</th>
     </tr>
   </thead>
   <tbody>
@@ -64,34 +68,28 @@ Upload your base template file to the _./output_ folder. It should be a CSV form
       <td>1</td>
       <td>PI594301</td>
       <td>3</td>
-      <td>M2</td>
     </tr>
     <tr>
       <td>2</td>
       <td>LD-07-3395bf</td>
       <td>23</td>
-      <td>M2</td>
     </tr>
     <tr>
       <td>3</td>
       <td>SA1730464</td>
       <td>18</td>
-      <td>M2</td>
     </tr>
     <tr>
       <td>4</td>
       <td>PI154189</td>
       <td>14</td>
-      <td>M2</td>
     </tr>
     <tr>
       <td>5</td>
       <td>PI594451</td>
       <td>2</td>
-      <td>M2</td>
     </tr>
     <tr>
-      <td>...</td>
       <td>...</td>
       <td>...</td>
       <td>...</td>
@@ -100,31 +98,26 @@ Upload your base template file to the _./output_ folder. It should be a CSV form
       <td>71</td>
       <td>CR16-0042</td>
       <td>20</td>
-      <td>M2</td>
     </tr>
     <tr>
       <td>72</td>
       <td>SA1811280</td>
       <td>25</td>
-      <td>M2</td>
     </tr>
     <tr>
       <td>73</td>
       <td>E19517GT</td>
       <td>24</td>
-      <td>M2</td>
     </tr>
     <tr>
       <td>74</td>
       <td>LD-07-3395bf</td>
       <td>23</td>
-      <td>M2</td>
     </tr>
     <tr>
       <td>75</td>
       <td>PI6548362</td>
       <td>8</td>
-      <td>M2</td>
     </tr>
   </tbody>
 </table>
@@ -132,7 +125,34 @@ Upload your base template file to the _./output_ folder. It should be a CSV form
 
 ## Understanding the config.yml file
 
-The **config.yml** file is a [YML file](https://yaml.org/ "yaml.org") that could be edited using **Jupyter** or you also can use use a code editor such as [Visual Studio Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/). The file is divided into six blocks of configurations, where each block is identified with uppercase letters. A _block collection_ could have _keys_, _values_ and/or _sequences_ on one of the following structures:
+The **config.yml** file is a [YML file](https://yaml.org/ "yaml.org") that could be edited using **Jupyter** or you also can use use a code editor such as [Visual Studio Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/). The file is divided into six blocks of configurations, where each block is identified with uppercase letters. A _block collection_ could have _keys_, _values_ and/or _sequences_.
+
+
+For instance, the following data structure contains the most common items in the config.yml file. 
+
+```sh
+TEMPLATE_INPUT: 
+  Folder : ./input/
+  Sample_name: 
+    - A
+    - B
+```
+Where: 
+
+
+TEMPLATE_INPUT = **BLOCK COLLECTION**
+
+Folder = **Key**
+
+Sample_name = **Key**
+
+./input/ = **Value**
+
+A, B = **Sequences**
+
+
+The data structures in the config.yml file could have one of the following structures.
+
 
    - Case 1
 ```sh
@@ -153,30 +173,11 @@ The **config.yml** file is a [YML file](https://yaml.org/ "yaml.org") that could
        - Sequences 
 ```
 
-For instance, the following example has each one of the items of the config.yml file:
-
-```sh
-TEMPLATE_INPUT: 
-  Folder : ./input/
-  Sample_name: 
-    - A
-    - B
-```
-
-**BLOCK COLLECTION** = TEMPLATE_INPUT 
-
-**Key** = _Folder_ and _Sample_name_
-
-**Value** = _./input/_
-
-**Sequences** = _A_, _B_
 
 
 ## Update the config.yml file
 
 You need to update the **config.yml** with your experiment and variable information from where you will collect data. One template should be created for each variable and for each time you collect the same variable.
-
-The kind of configuration information that each block contains and the modifications that the user should do are explained below:
 
 **General rules**
 1. It is **NOT** recommendable to change _BLOCK COLLECTION_ name items. If you change them, you should update the new name in the following line code on the _main.ipynb_ Jupyter file:

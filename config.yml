@@ -1,18 +1,17 @@
 TEMPLATE_INPUT: 
   Folder : ./input/
-  Input_template_file_name : base_template_example.csv
+  Input_template_file_name : trialInformation_soybeanBM_y22.csv
 
 COLUMNS_TEMPLATE:
   - Plot
-  - Repetition
-  - Genotype
+  - Rep
 
-NEW_COLUMNS: 
+NEW_COLUMNS:
   Experiment : ACRE-Biomass
   Season : y22
-  Treatment_1 : Early planting date
-  Measurment : Plant height
-  Sampling_identifier : Sampling-2
+  Environment : Early planting date
+  Measurement : trifoliate leaf dry weight
+  Sampling_identifier : Sampling-5
 
 SAMPLES_PER_PLOT:
   Sample_name: 
@@ -26,16 +25,16 @@ SAMPLE_IDENTIFIER :
     - Plot
     - Sample_name
     - Experiment
-    - Treatment_1
+    - Environment
     - Season
-    - Measurment
+    - Measurement
     - Sampling_identifier
 
 TEMPLATE_OUTPUT: 
-  - Measurment
+  - Measurement
   - Sampling_identifier
   - Experiment
-  - Treatment_1
+  - Environment
   - Season
 
   
