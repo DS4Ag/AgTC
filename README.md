@@ -7,7 +7,7 @@
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 [![YAML 1.2](https://img.shields.io/badge/YAML-1.2-success)](https://yaml.org/)
 
-Lee la versión en [español](Readme.es.md)
+Lee la versión en [español](README.es.md)
 
 ### What is agrXdatec?
 

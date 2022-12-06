@@ -8,7 +8,7 @@
 [![YAML 1.2](https://img.shields.io/badge/YAML-1.2-success)](https://yaml.org/)
 
 
-_Read this in_ [English](Readme.md) 
+_Read this in_ [English](README.md) 
 
 ### ¿Qué es agrXdatec?
 
