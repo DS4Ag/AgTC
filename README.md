@@ -1,5 +1,3 @@
-markdown: kramdown
-
 [![Wang lab logo](https://static.wixstatic.com/media/c544bf_0e3064b159ae42238c83dca23bc352e8~mv2.png/v1/crop/x_0,y_0,w_1918,h_2080/fill/w_91,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/lab_icon_3.png)](https://github.com/Purdue-LuisVargas/agrXdatec)
 
 
@@ -11,11 +9,11 @@ markdown: kramdown
 
 _Lee la versión en_ [español](README.es.md)
 
+Note: to open links in new tab use CTRL+click (Windows and Linux) or CMD+click (MacOS). 
+
 ### What is agrXdatec?
 
 **AGR**onomic E**X**periments **DA**ta **TE**mplate **C**reator is a set of functions written in python that allow you to create custom templates to collect data for most of the typical agronomic experiments. It also can be used as template to load a "field" in the [Field Book app](https://www.phenoapps.org/apps/). 
-
-<a href="https://www.google.com" target="_blank">external link</a>
 
 ## Prerequisites 
 
