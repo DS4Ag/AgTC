@@ -42,7 +42,7 @@ You should make a simple **[installation](https://jupyter.org/install "jupyter.o
     
     ```    
 
-2. [Clone or download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **agrXdatec** from the **Github** repository: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec).
+2. [Download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **agrXdatec** from the **Github** repository: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec).
 
     ```sh
         git clone https://github.com/Purdue-LuisVargas/agrXdatec.git
