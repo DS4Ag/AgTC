@@ -15,11 +15,12 @@ _Lee la versión en_ [español](README.es.md)
 
 **AGR**onomic E**X**periments **DA**ta **TE**mplate **C**reator is a set of functions written in python that allow you to create custom templates to collect data for most of the typical agronomic experiments. It also can be used as template to load a "field" in the [Field Book app](https://www.phenoapps.org/apps/). 
 
+<a href="https://www.google.com" target="_blank">external link</a>
 
 ## Prerequisites 
 
 - Option 1
-  - Using a [Jupyter Hub](https://jupyter.org/try){:target="_blank" rel="noopener"} enviroment.
+  - Using a [Jupyter Hub](https://jupyter.org/try) enviroment.
   - **For Purdue University members only** Jupyter Hub is available at https://notebook.scholar.rcac.purdue.edu/. It requires the use of BoilerKey Two-Factor Authentication.
 
 - Option 2
