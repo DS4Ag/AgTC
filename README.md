@@ -1,3 +1,5 @@
+markdown: kramdown
+
 [![Wang lab logo](https://static.wixstatic.com/media/c544bf_0e3064b159ae42238c83dca23bc352e8~mv2.png/v1/crop/x_0,y_0,w_1918,h_2080/fill/w_91,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/lab_icon_3.png)](https://github.com/Purdue-LuisVargas/agrXdatec)
 
 
@@ -7,7 +9,7 @@
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 [![YAML 1.2](https://img.shields.io/badge/YAML-1.2-success)](https://yaml.org/)
 
-Lee la versión en [español](README.es.md)
+_Lee la versión en_ [español](README.es.md)
 
 ### What is agrXdatec?
 
@@ -17,7 +19,7 @@ Lee la versión en [español](README.es.md)
 ## Prerequisites 
 
 - Option 1
-  - Using a [Jupyter Hub](https://jupyter.org/try) enviroment.
+  - Using a [Jupyter Hub](https://jupyter.org/try){:target="_blank" rel="noopener"} enviroment.
   - **For Purdue University members only** Jupyter Hub is available at https://notebook.scholar.rcac.purdue.edu/. It requires the use of BoilerKey Two-Factor Authentication.
 
 - Option 2
