@@ -41,17 +41,17 @@ You should make a simple **[installation](https://jupyter.org/install "jupyter.o
     
     ```    
 
-2. [Download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **agrXdatec** from the **Github** repository: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec).
+2. [Clone OR download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **agrXdatec** from the **Github** repository: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec).
+    
+    **Clone** option: On Jupyter Notebook, New > Terminal and run the following code.
 
     ```sh
         git clone https://github.com/Purdue-LuisVargas/agrXdatec.git
     
     ```
-## Running the Jupyter Notebook
-
-1. [Launch Jupyter Notebook App](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html)
-2. Unzip the entire folder, then copy (if running Jupyter locally) or upload the downloaded files (if using the Jupyter Hub environment) in your Jupyter Notebook folder. 
-3. Create the following folder _./output_.
+   **Download** option:
+    
+    Unzip the entire folder, then copy (if running Jupyter locally) or upload the downloaded files (if using the Jupyter Hub environment) in your Jupyter Notebook directory.
     
 ## Upload your base template file
 
