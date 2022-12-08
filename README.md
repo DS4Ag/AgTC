@@ -50,8 +50,8 @@ You should make a simple **[installation](https://jupyter.org/install "jupyter.o
 ## Running the Jupyter Notebook
 
 1. [Launch Jupyter Notebook App](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html)
-2. Copy (if running locally ) or upload the downloaded files (if using the hub environment)  in your notebook folder. 
-3. Create the following folder ./output.
+2. Unzip the entire folder, then copy (if running Jupyter locally) or upload the downloaded files (if using the Jupyter Hub environment) in your Jupyter Notebook folder. 
+3. Create the following folder _./output_.
     
 ## Upload your base template file
 

@@ -10,6 +10,8 @@
 
 _Read this in_ [English](README.md) 
 
+Note: to open links in new tab use CTRL+click (Windows and Linux) or CMD+click (MacOS). 
+
 ### ¿Qué es agrXdatec?
 
 **AGR**onomic E**X**periments **DA**ta **TE**mplate **C**reator son un conjunto de funciones escritas en Python que permiten crear plantillas personalizadas para colectar datos en la mayoría de los experimentos agronómicos comunes. También puede ser utilizada como plantilla para los archivos “Field” en la aplicación  [Field Book app](https://www.phenoapps.org/apps/). 
@@ -22,7 +24,7 @@ _Read this in_ [English](Readme.md)
   - Usando un ambiente de [Jupyter Hub](https://jupyter.org/try).
   - **Para miembros de Purdue University** 	Jupyter Hub está disponible en https://notebook.scholar.rcac.purdue.edu/. Requiere el uso de BoilerKey Two-Factor Authentication.
 
-- •	Opción 2
+- Opción 2
 
 Puedes hacer una [instalación](https://jupyter.org/install "jupyter.org") de **JupyterLab** o de **Jupyter Notebook**. También puedes instalar gestor de entornos como [conda](https://docs.conda.io/en/latest/), [mamba](https://mamba.readthedocs.io/), o [pipenv](https://pipenv.pypa.io/).
 
@@ -42,9 +44,16 @@ Puedes hacer una [instalación](https://jupyter.org/install "jupyter.org") de **
     
     ```    
 
-2. [Clona or descarga](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **agrXdatec** del repositorio de **Github** usando el siguiente enlace: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec).
+2. [Descarga](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **agrXdatec** del repositorio de **Github** usando el siguiente enlace: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec).
 
     ```sh
         git clone https://github.com/Purdue-LuisVargas/agrXdatec.git
     
     ```
+
+## Correr Jupyter Notebook
+
+1. [Ejecutar Jupyter Notebook App](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html)
+2. Descomprime el folder, después copia (si estas usando Jupyter en modo local) o carga los archivos descargados (si esas usando Jupyter Hub) en tu folder de Jupyter Notebook. 
+3. Crea el siguiente folder en dentro de tu directorio de trabajo en Jupyter Notebook  _./output_.
+
