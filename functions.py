@@ -76,7 +76,7 @@ def matching_elements_two_lists(first_list, second_list):
 
 def create_new_template(config_file_name, item_TEMPLATE_INPUT, item_COLUMNS_TEMPLATE, item_NEW_COLUMNS,
                   item_SAMPLES_PER_PLOT, item_SAMPLE_IDENTIFIER, item_TEMPLATE_OUTPUT):
-# Funtion that creates a template file using information from the config.yml file
+# Function that creates a template file using information from the config.yml file
 
     ## get base template using the csv_file_to_df() function
     base_template = csv_file_to_df(config_file_name, item_TEMPLATE_INPUT)

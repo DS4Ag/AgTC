@@ -51,7 +51,7 @@ You should make a simple **[installation](https://jupyter.org/install "jupyter.o
     ```
    **Download** option:
     
-    Unzip the entire folder, then copy (if running Jupyter locally) or upload the downloaded files (if using the Jupyter Hub environment) in your Jupyter Notebook directory.
+    Download and the unzip the entire folder, then copy (if running Jupyter locally) or upload the downloaded files (if using the Jupyter Hub environment) in your Jupyter Notebook directory.
     
 ## Upload your base template file
 
