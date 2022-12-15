@@ -15,7 +15,7 @@ Note: to open links in new tab use CTRL+click (Windows and Linux) or CMD+click (
 
 **AGR**onomic E**X**periments **DA**ta **TE**mplate **C**reator is a set of functions written in python that allow you to create custom templates to collect data for most of the typical agronomic experiments. It also can be used as template to load a "field" in the [Field Book app](https://www.phenoapps.org/apps/). 
 
-## Prerequisites 
+## How to run AgrXdatec?
 
 - Option 1
   - Using a [Jupyter Hub](https://jupyter.org/try) enviroment.
@@ -23,10 +23,10 @@ Note: to open links in new tab use CTRL+click (Windows and Linux) or CMD+click (
 
 - Option 2
 
-You should make a simple **[installation](https://jupyter.org/install "jupyter.org")** of either **JupyterLab** or **Jupyter Notebook**, or you also can install an environment management such as [conda](https://docs.conda.io/en/latest/), [mamba](https://mamba.readthedocs.io/), or [pipenv](https://pipenv.pypa.io/).
+  - You should make a simple **[installation](https://jupyter.org/install "jupyter.org")** of either **JupyterLab** or **Jupyter Notebook**, or you also can install an environment management such as [conda](https://docs.conda.io/en/latest/), [mamba](https://mamba.readthedocs.io/), or [pipenv](https://pipenv.pypa.io/).
 
 
-## Installing Packages
+## Prerequisites
 
 1. Install the requiered libraries using the [pip package installer](https://pypi.org/project/pip/) for Python.
 
@@ -41,17 +41,17 @@ You should make a simple **[installation](https://jupyter.org/install "jupyter.o
     
     ```    
 
-2. [Clone OR download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **agrXdatec** from the **Github** repository: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec).
+## Clone OR download agrXdatec from the Github repository
     
-    **Clone** option: On Jupyter Notebook, New > Terminal and run the following code.
+- [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) option: On Jupyter Notebook, New > Terminal and run the following code.
 
     ```sh
         git clone https://github.com/Purdue-LuisVargas/agrXdatec.git
     
     ```
-   **Download** option:
-    
-    Download and the unzip the entire folder, then copy (if running Jupyter locally) or upload the downloaded files (if using the Jupyter Hub environment) in your Jupyter Notebook directory.
+-  **Download** option:
+    1. [Download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **agrXdatec** from the **Github** repository: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec).
+    2. Unzip the entire folder, then copy (if running Jupyter locally) or upload the downloaded files (if using the Jupyter Hub environment) in your Jupyter Notebook directory.
     
 ## Upload your base template file
 

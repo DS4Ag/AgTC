@@ -26,7 +26,7 @@ _Read this in_ [English](Readme.md)
 
 - Opción 2
 
-Puedes hacer una [instalación](https://jupyter.org/install "jupyter.org") de **JupyterLab** o de **Jupyter Notebook**. También puedes instalar gestor de entornos como [conda](https://docs.conda.io/en/latest/), [mamba](https://mamba.readthedocs.io/), o [pipenv](https://pipenv.pypa.io/).
+    - Puedes hacer una [instalación](https://jupyter.org/install "jupyter.org") de **JupyterLab** o de **Jupyter Notebook**. También puedes instalar gestor de entornos como [conda](https://docs.conda.io/en/latest/), [mamba](https://mamba.readthedocs.io/), o [pipenv](https://pipenv.pypa.io/).
 
 
 ## Instalar paquetes
