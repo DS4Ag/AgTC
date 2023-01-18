@@ -28,34 +28,40 @@ Note: to open links in new tab use CTRL+click (Windows and Linux) or CMD+click (
 
 ## Prerequisites
 
-1. Install the requiered libraries using the [pip package installer](https://pypi.org/project/pip/) for Python.
+Install the requiered libraries using the [pip package installer](https://pypi.org/project/pip/) for Python.
 
-    - [PyYAML](https://pypi.org/project/PyYAML/)
+- [PyYAML](https://pypi.org/project/PyYAML/)
     ```sh
         pip install pyyaml
     
     ```
-    - [Pandas](https://pypi.org/project/pandas/)
+- [Pandas](https://pypi.org/project/pandas/)
     ```sh
         pip install pandas
     
     ```    
 
-## Clone OR download agrXdatec from the Github repository
+## Clone or download agrXdatec from the GitHub repository
     
-- [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) option: On Jupyter Notebook, New > Terminal and run the following code.
-
+- [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) option
+    1. Open a new Jupyter Notebook Terminal
+    
+    New > Terminal 
+    
+    2. Clone the GitHub repository 
+    
     ```sh
         git clone https://github.com/Purdue-LuisVargas/agrXdatec.git
     
     ```
--  **Download** option:
+-  **Download** option
+
     1. [Download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **agrXdatec** from the **Github** repository: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec).
     2. Unzip the entire folder, then copy (if running Jupyter locally) or upload the downloaded files (if using the Jupyter Hub environment) in your Jupyter Notebook directory.
     
-## Upload your base template file
+## Upload the Initial Template file
 
-Upload your base template file to the _./output_ folder. It should be a CSV format file and it has to contain the information that changes for each plot and that you want to maintain in the template, such as plot number, repetition number, genotype name, etc. The table below is an example of columns and rows that a base template could have:
+Upload the Initial Template file to the _./input_ folder. It should be a CSV format file and it has to contain the information that changes for each plot and that you want to maintain in the New Template, such as plot number, repetition number, genotype name, etc. The table below is an example of columns and rows that a Initial Template could have:
 
 <table class="dataframe" border="1">
   <thead>
@@ -125,12 +131,12 @@ Upload your base template file to the _./output_ folder. It should be a CSV form
 </table>
 
 
-## Understanding the config.yml file
+## Understanding the Configuration File
 
-The **config.yml** file is a [YML file](https://yaml.org/ "yaml.org") that could be edited using **Jupyter** or you also can use use a code editor such as [Visual Studio Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/). The file is divided into six blocks of configurations, where each block is identified with uppercase letters. A _block collection_ could have _keys_, _values_ and/or _sequences_.
+The **config.yml** file is a [YML file](https://yaml.org/ "yaml.org") that could be edited using **Jupyter** or a text editor. The file is divided into six blocks of configurations, where each block is identified with uppercase letters. A _BLOCK COLLECTION_ could have _keys_, _values_ and/or _sequences_.
 
 
-For instance, the following data structure contains the most common items in the config.yml file. 
+For instance, the following data structure contains the most common items in the **config.yml** file. 
 
 ```sh
 TEMPLATE_INPUT: 
@@ -153,7 +159,7 @@ Sample_name = **Key**
 A, B = **Sequences**
 
 
-The data structures in the config.yml file could have one of the following structures.
+The data structures in the **config.yml** file could have one of the following arranges.
 
 
    - Case 1
@@ -177,34 +183,34 @@ The data structures in the config.yml file could have one of the following struc
 
 
 
-## Update the config.yml file
+## Update the Configuration File
 
-You need to update the **config.yml** with your experiment and variable information from where you will collect data. One template should be created for each variable and for each time you collect the same variable.
+You need to update the **config.yml** file using information about the experiment.  
 
 **General rules**
 1. It is **NOT** recommendable to change _BLOCK COLLECTION_ name items. If you change them, you should update the new name in the following line code on the _main.ipynb_ Jupyter file:
 ``` sh
 functions.create_new_template('config.yml', 'TEMPLATE_INPUT', 'COLUMNS_TEMPLATE', 'NEW_COLUMNS', 'SAMPLES_PER_PLOT', 'SAMPLE_IDENTIFIER', 'TEMPLATE_OUTPUT')
 ```
-2. **You can** modify the name of any _Key_ item. Additionally, for some _BLOCK COLLECTION_ items, you should delete or add more depending on your experiment and variable information. 
+2. **You can** modify the name of any _Key_ item. Additionally, for some _BLOCK COLLECTION_ items, you should delete or add more depending on the experiment information. 
 
 
-3. **You should** update _Value_ items with your experiment and variable information, but you cannot add more than one item per _Key_.
+3. **You should** update _Value_ items with the experiment information, but you cannot add more than one item per _Key_.
 
 
-4. **You should add, delete or modify** _Sequences_ items as needed.  
+4. **You should delete, add or modify** _Sequences_ items as needed.  
 
 
-5. Be sure to keep the correct indentation.
+5. Be sure to keep the correct indentation. Use the spacebar instead tab key.
 
 
 #### TEMPLATE_INPUT
-Defines the locations and name of the file that contains the basic information about the experiment.
+Used to define the path and name of the Initial Template file.
 
 - You can modify the name of the _Key_ items.
 
 
-- **You should** update the _Value_ items (e.g. trialInformation_PPAC_soybean_M2_y22.csv) from the _Input_template_file_name Key_ with your file base template name.
+- **You should** update the _Value_ items (e.g. trialInformation_PPAC_soybean_M2_y22.csv from the _Input_template_file_name Key_) with your file Initial Template name.
 
 ```sh
 TEMPLATE_INPUT: 
@@ -213,9 +219,10 @@ TEMPLATE_INPUT:
 ```
 
 #### COLUMNS_TEMPLATE
-Contains the column names that will be selected from the input template. 
 
-- Even if you want to keep all the columns that your base template file has, **You should** specify the _Sequences._ whit the column names of your template. Add or delete as many _Sequences_ as necessary. 
+It allows to specify the column names that will be selected from the Initial Template File. 
+
+- Even if you want to maintain all the columns from the Initial Template file, **you should** write their names as _Sequences_. Add or delete as many _Sequences_ as necessary. 
 
 ```sh
 COLUMNS_TEMPLATE:
@@ -225,9 +232,10 @@ COLUMNS_TEMPLATE:
 ```
 
 #### NEW_COLUMNS
-It has the names and values for the new columns that will be added to the current template to create the new file.
 
-- **You should** add, delete or modify _Key_ items based on your experiment information.
+It allows to write the names and values for the new columns that will be added to the New Template.
+
+- **You can** add, delete or modify _Key_ items based on your experiment information.
 
 
 - **You should** update the _Value_ items based on your experiment information.
@@ -236,15 +244,16 @@ It has the names and values for the new columns that will be added to the curren
 NEW_COLUMNS: 
   Experiment : ACRE-Biomass
   Season : y22
-  Treatment_1 : Early planting date
+  Environment : Early planting date
   Measurment : Plant height
   Sampling_identifier : Sampling-2
 ```
 
 #### SAMPLES_PER_PLOT
-This section is used to specify the number of repetitions of measurement on each plot. It would create a row for each sample name that the user identifies.
 
-- **You should** specify the _Sequences._ with the name that you want to identify each sample. Add or delete as many _Sequences_ as necessary. 
+This section is used to specify the number of repetitions of a measurement on the same experimental unit (plot, pot, growth chamber, etc.). It would create a row for each subsample name that the user indicates.
+
+- **You should** specify the _Sequences_ with the name that you want to identify each subsample. Modify, delete, or change the _Sequences_ according to the measurement characteristics for which the Template will be created. 
 
 ```sh
 SAMPLES_PER_PLOT:
@@ -256,12 +265,13 @@ SAMPLES_PER_PLOT:
 ```
 
 #### SAMPLE_IDENTIFIER
-It contains the names of the columns with the values that will be used to create a unique identifier for each sample (row).
 
-- **You should NOT** add o delete _Key_ items, but you can change its name. The _Key_ name is the name of the column that your final template will have.
+It allows to specify the names of the columns with the values that will be used to create a unique identifier for each subsample (row).
+
+- **You should NOT** add o delete _Key_ items, but you can change its name. The _Key_ name is the name of the column that the New Template will have.
 
 
-- **You should** update the _Sequences_ items according to your experiment and variable information. Add or delete as many _Sequences_ as necessary. **Be sure** that the _Sequences_ names exist as _key_ in the items COLUMNS_TEMPLATE, NEW_COLUMNS and _SAMPLES_PER_PLOT._
+- **You should** update the _Sequences_ items according to the experiment  information. Add or delete as many _Sequences_ as necessary. **Make sure** that the _Sequences_ names exist as _key_ in the items COLUMNS_TEMPLATE, NEW_COLUMNS and _SAMPLES_PER_PLOT._
 
 ```sh
 SAMPLE_IDENTIFIER :
@@ -269,33 +279,32 @@ SAMPLE_IDENTIFIER :
     - Plot
     - Sample_name
     - Experiment
-    - Treatment_1
+    - Environment
     - Season
     - Measurment
     - Sampling_identifier
 ```
 
 #### TEMPLATE_OUTPUT
-Column names which values will be used to create the name for the output file.
 
-- **You should** update the _Sequences_ items according to your experiment and variable information. Add or delete as many _Sequences_ as necessary. **Be sure** that the _Sequences_ names exist as _key_ in the NEW_COLUMNS item.
+It allows to specify the column names which values will be used to create the New Template file name.
+
+- **You should** update the _Sequences_ items according the experiment information. Add or delete as many _Sequences_ as necessary. **Make sure** that the _Sequences_ names exist as _key_ in the NEW_COLUMNS item.
 
 ```sh
 TEMPLATE_OUTPUT: 
   - Measurment
   - Sampling_identifier
   - Experiment
-  - Treatment_1
+  - Environment
   - Season
 ```
-## Run the python functions 
+## Run the Python functions 
 
-Open the **main.ipynb** file in **Jupyter**, execute the two block of instructions. You would find your new file in the _./output_ folder.
+Open the **main.ipynb** file in **Jupyter**, execute the two block of instructions. You would find your New Template in the _./output_ folder.
 
 ## Contact
 
 Luis Vargas Rojas - [lvargasr@purdue.edu](lvargasr@purdue.edu)
 
 Purdue University, Wang Lab [dianewanglab.com](https://www.dianewanglab.com/)
-
-Project Link: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec)
