@@ -1,4 +1,4 @@
-[![Wang lab logo](https://static.wixstatic.com/media/c544bf_0e3064b159ae42238c83dca23bc352e8~mv2.png/v1/crop/x_0,y_0,w_1918,h_2080/fill/w_91,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/lab_icon_3.png)](https://github.com/Purdue-LuisVargas/agrXdatec)
+[![Wang lab logo](https://static.wixstatic.com/media/c544bf_0e3064b159ae42238c83dca23bc352e8~mv2.png/v1/crop/x_0,y_0,w_1918,h_2080/fill/w_91,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/lab_icon_3.png)](https://github.com/Purdue-LuisVargas/adt)
 
 
 
@@ -14,12 +14,12 @@ _Read this in_ [English](README.md)
 Nota: para abrir los enlaces de manual en una nueva ventana usa CTRL+click (Windows y Linux) o CMD+click (MacOS).
  
 
-### ¿Qué es agrXdatec?
+### ¿Qué es ADT?
 
-**AGR**onomic E**X**periments **DA**ta **TE**mplate **C**reator son un conjunto de funciones escritas en Python que permiten crear plantillas personalizadas para colectar datos en la mayoría de los experimentos agronómicos comunes. También puede ser utilizada como plantilla para los archivos “Field” en la aplicación  [Field Book app](https://www.phenoapps.org/apps/). 
+**A**gronomic Experiments **D**ata **T**emplate Creator son un conjunto de funciones escritas en Python que permiten crear plantillas personalizadas para colectar datos en la mayoría de los experimentos agronómicos comunes. También puede ser utilizada como plantilla para los archivos “Field” en la aplicación  [Field Book app](https://www.phenoapps.org/apps/). 
 
 
-## ¿Cómo ejecutar agrXdatec?
+## ¿Cómo ejecutar ADT?
 
 - Opción 1
   - Usando un ambiente de [Jupyter Hub](https://jupyter.org/try).
@@ -37,7 +37,7 @@ Instala los siguentes paquetes usando el [pip package installer](https://pypi.or
 - [PyYAML](https://pypi.org/project/PyYAML/)
     
     ```sh
-            pip install pyyaml
+        pip install pyyaml
     
     ```
 - [Pandas](https://pypi.org/project/pandas/)
@@ -46,7 +46,7 @@ Instala los siguentes paquetes usando el [pip package installer](https://pypi.or
     
     ``` 
     
-## Clona o descarga agrXdatec desde el repositorio de GitHub
+## Clona o descarga ADT desde el repositorio de GitHub
 
 - Opción [Clonar](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
     1. Abre una nueva terminal en Jupyter Notebook.
@@ -56,12 +56,12 @@ Instala los siguentes paquetes usando el [pip package installer](https://pypi.or
     2. Clona el repositorio de GitHub. 
     
     ```sh
-        git clone https://github.com/Purdue-LuisVargas/agrXdatec.git
+        git clone https://github.com/Purdue-LuisVargas/adt.git
     
     ```
 -  Opción **descargar**:
 
-    1. Descarga el repositorio de GitHub usando el siguiente enlace: [https://github.com/Purdue-LuisVargas/agrXdatec](https://github.com/Purdue-LuisVargas/agrXdatec).
+    1. Descarga el repositorio de GitHub usando el siguiente enlace: [https://github.com/Purdue-LuisVargas/adt](https://github.com/Purdue-LuisVargas/adt).
     
     2. Descomprime el folder, después copia (si estas usando Jupyter en modo local) o carga los archivos descargados (si esas usando Jupyter Hub) en tu folder de Jupyter Notebook.
 
@@ -288,7 +288,7 @@ TEMPLATE_OUTPUT:
   - Season
 ```
 
-## Ejecuta las funciones de Python  
+## Ejecutar las funciones de Python  
 
 Abre el archivo **main.ipynb**  en  **Jupyter**, ejecuta los dos bloques de instrucciones. En nuevo Template creado se encontrara en la carpera_./output_.
 
