@@ -1,4 +1,4 @@
-[![Wang lab logo](https://static.wixstatic.com/media/c544bf_0e3064b159ae42238c83dca23bc352e8~mv2.png/v1/crop/x_0,y_0,w_1918,h_2080/fill/w_91,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/lab_icon_3.png)](https://github.com/Purdue-LuisVargas/adt)
+[![Wang lab logo](https://static.wixstatic.com/media/c544bf_0e3064b159ae42238c83dca23bc352e8~mv2.png/v1/crop/x_0,y_0,w_1918,h_2080/fill/w_91,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/lab_icon_3.png)](https://github.com/Purdue-LuisVargas/ADTpy)
 
 
 
@@ -11,11 +11,11 @@ _Lee la versión en_ [español](README.es.md)
 
 Note: to open links in new tab use CTRL+click (Windows and Linux) or CMD+click (MacOS). 
 
-### What is ADT?
+### What is ADTpy?
 
 **A**gronomic Experiments **D**ata **T**emplate Creator  is a set of functions written in python that allow you to create custom templates to collect data for most of the typical agronomic experiments. It also can be used as template to load a "field" in the [Field Book app](https://www.phenoapps.org/apps/). 
 
-## How to run ADT?
+## How to run ADTpy?
 
 - Option 1
   - Using a [Jupyter Hub](https://jupyter.org/try) enviroment.
@@ -41,7 +41,7 @@ Install the requiered libraries using the [pip package installer](https://pypi.o
     
     ```    
 
-## Clone or download ADT from the GitHub repository
+## Clone or download ADTpy from the GitHub repository
     
 - [Clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) option
     1. Open a new Jupyter Notebook Terminal
@@ -51,12 +51,12 @@ Install the requiered libraries using the [pip package installer](https://pypi.o
     2. Clone the GitHub repository 
     
     ```sh
-        git clone https://github.com/Purdue-LuisVargas/adt.git
+        git clone https://github.com/Purdue-LuisVargas/ADTpy.git
     
     ```
 -  **Download** option
 
-    1. [Download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **ADT** from the **Github** repository: [https://github.com/Purdue-LuisVargas/adt](https://github.com/Purdue-LuisVargas/adt).
+    1. [Download](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) **ADTpy** from the **Github** repository: [https://github.com/Purdue-LuisVargas/ADTpy](https://github.com/Purdue-LuisVargas/ADTpy).
     2. Unzip the entire folder, then copy (if running Jupyter locally) or upload the downloaded files (if using the Jupyter Hub environment) in your Jupyter Notebook directory.
     
 ## Upload the Initial Template file
