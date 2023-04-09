@@ -1,6 +1,11 @@
+# You can use coments 
+# this is single line comment
+# A commented block is skipped during execution
+
 TEMPLATE_INPUT: 
   Folder : ./input/
   Input_template_file_name : base_template_example.csv
+  #Input_template_file_name : base_template_second_example.csv
 
 COLUMNS_TEMPLATE:
   - Plot

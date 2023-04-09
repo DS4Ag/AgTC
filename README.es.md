@@ -10,6 +10,8 @@
 
 _Read this in_ [English](README.md) 
 
+[Clic en este enlace para ver los videos tutoriales.](https://www.youtube.com/playlist?list=PLb-PBxMrefhP9qO2Fe7Dcz72cUWMoQyy_)
+
 
 Nota: para abrir los enlaces de manual en una nueva ventana usa CTRL+click (Windows y Linux) o CMD+click (MacOS).
  
