@@ -7,6 +7,9 @@
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 [![YAML 1.2](https://img.shields.io/badge/YAML-1.2-success)](https://yaml.org/)
 
+
+[![DOI](https://zenodo.org/badge/680893453.svg)](https://zenodo.org/badge/latestdoi/680893453)
+
 _Lee la versión en_ [español](README.es.md)
 
 Note: to open links in new tab use CTRL+click (Windows and Linux) or CMD+click (MacOS). 
