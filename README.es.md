@@ -1,4 +1,4 @@
-[![Wang lab logo](https://static.wixstatic.com/media/c544bf_0e3064b159ae42238c83dca23bc352e8~mv2.png/v1/crop/x_0,y_0,w_1918,h_2080/fill/w_91,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/lab_icon_3.png)](https://www.dianewanglab.com/)
+[![Wang lab logo](https://static.wixstatic.com/media/c544bf_0e3064b159ae42238c83dca23bc352e8~mv2.png/v1/crop/x_0,y_0,w_1918,h_2080/fill/w_91,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/lab_icon_3.png)](https://github.com/Purdue-LuisVargas/AgTC)
 
 
 
@@ -6,6 +6,10 @@
 [![JupyterLab](https://img.shields.io/badge/Jupyter-lab-orange)](https://jupyter.org/)
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
 [![YAML 1.2](https://img.shields.io/badge/YAML-1.2-success)](https://yaml.org/)
+
+
+
+[![DOI](https://zenodo.org/badge/680893453.svg)](https://zenodo.org/badge/latestdoi/680893453)
 
 
 _Read this in_ [English](README.md) 
@@ -294,12 +298,8 @@ TEMPLATE_OUTPUT:
 
 Abre el archivo **main.ipynb**  en  **Jupyter**, ejecuta los dos bloques de instrucciones. En nuevo Template creado se encontrara en la carpera_./output_.
 
-## Contact
-
-Diane Wang - [drwang@purdue.edu](drwang@purdue.edu)
-
+## Contacto
 
 Luis Vargas Rojas - [lvargasr@purdue.edu](lvargasr@purdue.edu)
-
 
 Purdue University, Wang Lab [dianewanglab.com](https://www.dianewanglab.com/)
