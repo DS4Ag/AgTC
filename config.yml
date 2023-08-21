@@ -1,46 +1,46 @@
 # You can use coments 
-# this is single line comment
+# This is single line comment
 # A commented block is skipped during execution
 
 TEMPLATE_INPUT: 
-  Folder : ./input/
-  Input_template_file_name : base_template_example.csv
-  #Input_template_file_name : base_template_second_example.csv
+    Folder : ./input/
+    Input_template_file_name : base_template_example.csv
+    #Input_template_file_name : base_template_second_example.csv
 
 COLUMNS_TEMPLATE:
-  - Plot
-  - Genotype
-  - Repetition
+    - Plot
+    - Genotype
+    - Repetition
 
 NEW_COLUMNS:
-  Experiment : ACRE-Biomass
-  Season : y22
-  Environment : Early planting date
-  Measurement : trifoliate leaf dry weight
-  Sampling_identifier : Sampling-5
+    Experiment : ACRE-Biomass
+    Season : Summer 2022
+    Environment : Early planting date
+    Measurement : Plant height
+    Sampling_identifier : Sampling-5
 
 SAMPLES_PER_PLOT:
-  Sample_name: 
-    - A
-    - B
-    - C
-    - D
+    Sample_name: 
+        - A
+        - B
+        - C
+        - D
 
 SAMPLE_IDENTIFIER :
-  id_sample:
-    - Plot
-    - Sample_name
+    id_observation:
+        - Plot
+        - Sample_name
+        - Experiment
+        - Environment
+        - Season
+        - Measurement
+        - Sampling_identifier
+
+TEMPLATE_OUTPUT: 
+    - Measurement
+    - Sampling_identifier
     - Experiment
     - Environment
     - Season
-    - Measurement
-    - Sampling_identifier
-
-TEMPLATE_OUTPUT: 
-  - Measurement
-  - Sampling_identifier
-  - Experiment
-  - Environment
-  - Season
 
   

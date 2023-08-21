@@ -7,7 +7,7 @@ import pandas as pd
 def get_yml_item_value(file, item_input):
     
     '''
-    Function that opens the yaml file and returns the value that the item has
+    Function that opens the yaml file and returns the value that the item has.
     '''
 
     # transform the argument values into lowcase or uppercase
@@ -29,13 +29,11 @@ def get_yml_item_value(file, item_input):
 def csv_file_to_df(file, item_input):
     
     '''
-    function that reads a csv file using config file that it name and path location is declared in a YAML config file.
+    Function that reads a csv file using config file that it name and path location is declared in a YAML config file.
     '''
     
     # get the path of the template folder from the YAML config file
     values_template_input = get_yml_item_value(file, item_input).values()
-    
-    print(values_template_input)
 
     if any(s.startswith('./') and s.endswith('/') for s in values_template_input):
 
@@ -50,8 +48,6 @@ def csv_file_to_df(file, item_input):
                         folder_path = value
 
                     else:
-
-                        print(value)
 
                         file_name = value
 
@@ -83,7 +79,7 @@ def csv_file_to_df(file, item_input):
 def matching_elements_two_lists(first_list, second_list):
     
     '''
-    Function that compares two lists and returns the elements that exist in both of them
+    Function that compares two lists and returns the elements that exist in both of them.
     '''
 
     # compare the template colums vs subset columns from config file and return NOT matches
@@ -101,7 +97,7 @@ def create_new_template(config_file_name, item_TEMPLATE_INPUT, item_COLUMNS_TEMP
                   item_SAMPLES_PER_PLOT, item_SAMPLE_IDENTIFIER, item_TEMPLATE_OUTPUT):
     
     '''
-    Function that creates a template file using information from the config.yml file
+    Function that creates a template file using information from the config.yml file.
     '''
 
     ## get base template using the csv_file_to_df() function
