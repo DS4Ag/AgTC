@@ -38,15 +38,24 @@ Nota: para abrir los enlaces de manual en una nueva ventana usa CTRL+click (Wind
 
 ## Prerrequisitos
 
-Instala los siguentes paquetes usando el [pip package installer](https://pypi.org/project/pip/) de Python.
+- Opción 1
 
-- [PyYAML](https://pypi.org/project/PyYAML/)
+    - Using Requirements File 
+
+ ```sh
+    pip install -r requirements.txt
+``` 
+- Opción 2
+
+  - Instala los siguentes paquetes usando el [pip package installer](https://pypi.org/project/pip/) de Python.
+
+    [PyYAML](https://pypi.org/project/PyYAML/)
     
     ```sh
         pip install pyyaml
     
     ```
-- [Pandas](https://pypi.org/project/pandas/)
+    [Pandas](https://pypi.org/project/pandas/)
     ```sh
         pip install pandas
     

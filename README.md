@@ -31,14 +31,21 @@ Note: to open links in new tab use CTRL+click (Windows and Linux) or CMD+click (
 
 ## Prerequisites
 
-Install the requiered libraries using the [pip package installer](https://pypi.org/project/pip/) for Python.
+- Option 1
+    - Using Requirements File 
 
-- [PyYAML](https://pypi.org/project/PyYAML/)
+ ```sh
+    pip install -r requirements.txt
+``` 
+- option 2
+     - Install the requiered libraries using the [pip package installer](https://pypi.org/project/pip/) for Python.
+
+  - [PyYAML](https://pypi.org/project/PyYAML/)
     ```sh
         pip install pyyaml
     
     ```
-- [Pandas](https://pypi.org/project/pandas/)
+  - [Pandas](https://pypi.org/project/pandas/)
     ```sh
         pip install pandas
     
