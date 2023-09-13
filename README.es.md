@@ -298,6 +298,16 @@ TEMPLATE_OUTPUT:
 
 Abre el archivo **main.ipynb**  en  **Jupyter**, ejecuta los dos bloques de instrucciones. En nuevo Template creado se encontrara en la carpera_./output_.
 
+## ¿Cómo citar?
+
+- Citar el artículo 
+
+Vargas-Rojas, L., Ting, T.-C., Rainey, K., Reynolds, M., & Wang, D. (2023). AgTC and AgETL: Open-source tools to enhance data collection and management for agricultural and plant science research. _Technical Advances in Plant Science (under Review)_.
+
+- Citar el software:
+
+Luis Vargas Rojas. (2023). DS4Ag/AgTC: AgTC v1.0 (v1.0). Zenodo. https://doi.org/10.5281/zenodo.8269335
+
 ## Contacto
 
 Luis Vargas Rojas - [lvargasr@purdue.edu](lvargasr@purdue.edu)
