@@ -140,6 +140,7 @@ Upload the Initial Template file to the _./input_ folder. It should be a CSV for
   </tbody>
 </table>
 
+We encourage you to use controlled vocabularies and ontologies to name crop traits and variables. Learn about crop ontologies at [https://cropontology.org/about](https://cropontology.org/about). 
 
 ## Understanding the Configuration File
 

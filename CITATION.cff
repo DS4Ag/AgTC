@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @ARTICLE{10.3389/fpls.2024.1265073,
 
 AUTHOR={Vargas-Rojas, Luis  and Ting, To-Chia  and Rainey, Katherine M.  and Reynolds, Matthew  and Wang, Diane R. },
@@ -17,3 +18,11 @@ DOI={10.3389/fpls.2024.1265073},
 ISSN={1664-462X},
 
 ABSTRACT={<p>Advancements in phenotyping technology have enabled plant science researchers to gather large volumes of information from their experiments, especially those that evaluate multiple genotypes. To fully leverage these complex and often heterogeneous data sets (i.e. those that differ in format and structure), scientists must invest considerable time in data processing, and data management has emerged as a considerable barrier for downstream application. Here, we propose a pipeline to enhance data collection, processing, and management from plant science studies comprising of two newly developed open-source programs. The first, called AgTC, is a series of programming functions that generates comma-separated values file templates to collect data in a standard format using either a lab-based computer or a mobile device. The second series of functions, AgETL, executes steps for an <italic>Extract</italic>-<italic>Transform</italic>-<italic>Load</italic> (ETL) data integration process where data are extracted from heterogeneously formatted files, transformed to meet standard criteria, and loaded into a database. There, data are stored and can be accessed for data analysis-related processes, including dynamic data visualization through web-based tools. Both AgTC and AgETL are flexible for application across plant science experiments without programming knowledge on the part of the domain scientist, and their functions are executed on Jupyter Notebook, a browser-based interactive development environment. Additionally, all parameters are easily customized from central configuration files written in the human-readable YAML format. Using three experiments from research laboratories in university and non-government organization (NGO) settings as test cases, we demonstrate the utility of AgTC and AgETL to streamline critical steps from data collection to analysis in the plant sciences.</p>}}
+=======
+@article{,
+   author = {Luis Vargas-Rojas and To-Chia Ting and Katherine Rainey and Matthew Reynolds and Diane Wang},
+   journal = {Technical Advances in Plant Science (under review)},
+   title = {AgTC and AgETL: Open-source tools to enhance data collection and management for agricultural and plant science research},
+   year = {2023},
+}
+>>>>>>> 12742c375bf1b68cff1cbbde1ad65317c83ca581

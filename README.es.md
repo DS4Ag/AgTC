@@ -150,6 +150,8 @@ Carga la Plantilla Base en la carpeta _./input._ El archivo debe estar en format
   </tbody>
 </table>
 
+Le recomendamos el uso de ontologías y vocabularios controlados para nombrar variables de cultivos. Para conocer más sobre ontologías de cultivos, visite el sitio [https://cropontology.org/about.](https://cropontology.org/about) 
+
 ## Contenido del Archivo de Configuración
 
 El archivo **config.yml** es un [documento YML](https://yaml.org/ "yaml.org") que se puede abrir con Jupyter notebooks o con un editor de texto. El archivo se divide en seis _Bloques_ de configuraciones, donde cada bloque se identifica con letras mayúsculas. Dichos _Bloques_ puede tener _Claves_, _Valores_ y/o _Listas_.
