@@ -16,7 +16,7 @@ Note: to open links in new tab use CTRL+click (Windows and Linux) or CMD+click (
 
 ### What is AgTC?
 
-**Ag**ronomic Experiments Data **T**emplate **C**reator  is a set of functions written in python that allow you to create custom templates to collect data for most of the typical agronomic experiments. It also can be used as template to load a "field" in the [Field Book app](https://www.phenoapps.org/apps/). 
+**Ag**ricultural Data **T**emplate **C**reator is a set of functions written in python that allow you to create custom templates to collect data for most of the typical agronomic experiments. It also can be used as template to load a "field" in the [Field Book app](https://www.phenoapps.org/apps/). 
 
 ## How to run AgTC?
 
